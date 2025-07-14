@@ -1,70 +1,84 @@
-🔥 Live Leaderboard – Leadership App
-An interactive full-stack Leaderboard Tracking System built using the MERN stack (MongoDB, Express, React, Node). Users can be added, claim points, and view real-time rankings with a clean and responsive UI.
+# 🔥 Live Leaderboard – Leadership App
 
-📸 Preview
-🧾 Add User & Claim Points
-
-🏆 Leaderboard Rankings
-
-📜 Claim History with Reset
+An interactive full-stack Leaderboard Tracking System built using the **MERN stack** (MongoDB, Express, React, Node).  
+Users can be added, claim points, and view real-time rankings with a clean and responsive UI.
 
 ---
 
-🔗 Live Links
-Frontend Live URL 👉 https://leadership-app-frontend.vercel.app
+## 📸 Preview
 
-Backend API URL 👉 https://leadership-api.onrender.com
-
----
-🧰 Tech Stack
-Frontend	Backend	Database
-React (Vite)	Express.js	MongoDB
-Axios	CORS, Dotenv	
-React Icons	Multer (for file ops)	
+- 🧾 Add User & Claim Points  
+- 🏆 Leaderboard Rankings  
+- 📜 Claim History with Reset  
 
 ---
-🗂️ Folder Structure
+
+## 🔗 Live Links
+
+- **Frontend Live URL** 👉 [https://leadership-app-frontend.vercel.app](https://leader-board-pi.vercel.app/)  
+- **Backend API URL** 👉 [https://leadership-api.onrender.com](https://leaderboard-5.onrender.com)
+
+---
+
+## 🧰 Tech Stack
+
+| Frontend      | Backend         | Database     |
+|---------------|------------------|--------------|
+| React (Vite)  | Express.js       | MongoDB Atlas |
+| Axios         | CORS, Dotenv     |              |
+| React Icons   | Multer (file ops)|              |
+
+---
+
+## 🗂️ Folder Structure
 
 LEADERSHIP/
 │
 ├── backend/
-│   ├── server.js
-│   ├── .env
-│   └── package.json
+│ ├── server.js
+│ ├── .env
+│ └── package.json
 │
 ├── frontend/my-app/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── AddUser.jsx / .css
-│   │   │   ├── ClaimButton.jsx
-│   │   │   ├── ClaimHistory.jsx / .css
-│   │   │   ├── Leaderboard.jsx / .css
-│   │   │   ├── UserSelector.jsx / .css
-│   │   ├── App.jsx / App.css
-│   │   └── index.css / main.jsx
-│   └── public/index.html
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── AddUser.jsx / .css
+│ │ │ ├── ClaimButton.jsx
+│ │ │ ├── ClaimHistory.jsx / .css
+│ │ │ ├── Leaderboard.jsx / .css
+│ │ │ ├── UserSelector.jsx / .css
+│ │ ├── App.jsx / App.css
+│ │ └── index.css / main.jsx
+│ └── public/index.html
 │
 ├── README.md
 
----
-🛠️ Installation & Run
-✅ Frontend Setup
 
+
+---
+
+## 🛠️ Installation & Run
+
+### ✅ Frontend Setup
+
+```bash
 npm create vite@latest my-app --template react
 cd my-app
 npm install
 npm i react-router-dom react-icons axios
 npm run dev
 ✅ Backend Setup
-
+bash
+Copy
+Edit
 cd backend
 npm install express cors dotenv multer mongodb
 node server.js
-Make sure MongoDB is running locally or you’ve configured your .env with MongoDB Atlas URI:
+Make sure MongoDB is running locally or you’ve configured your .env file properly:
 
----
 
-PORT=3000
+PORT=3000  
+
 💡 Features
 🔹 Add users dynamically
 
