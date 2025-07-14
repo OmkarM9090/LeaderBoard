@@ -7,10 +7,12 @@ Users can be added, claim points, and view real-time rankings with a clean and r
 
 ## 📸 Preview
 
-- 🧾 Add User & Claim Points  
-- 🏆 Leaderboard Rankings  
+- 🧾 Add User & Claim Points
+   ![add](./screenshots/first.png)
+- 🏆 Leaderboard Rankings
+  ![lead](./screenshots/second.png)
 - 📜 Claim History with Reset  
-
+  ![claim](./screenshots/third.png)
 ---
 
 ## 🔗 Live Links
