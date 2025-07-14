@@ -29,29 +29,33 @@ Users can be added, claim points, and view real-time rankings with a clean and r
 | React Icons   | Multer (file ops)|              |
 
 ---
-
-## 🗂️ Folder Structure
-
+## file format
 LEADERSHIP/
-│
 ├── backend/
-│ ├── server.js
-│ ├── .env
-│ └── package.json
+│   ├── server.js
+│   ├── .env
+│   └── package.json
 │
-├── frontend/my-app/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── AddUser.jsx / .css
-│ │ │ ├── ClaimButton.jsx
-│ │ │ ├── ClaimHistory.jsx / .css
-│ │ │ ├── Leaderboard.jsx / .css
-│ │ │ ├── UserSelector.jsx / .css
-│ │ ├── App.jsx / App.css
-│ │ └── index.css / main.jsx
-│ └── public/index.html
+├── frontend/
+│   └── my-app/
+│       ├── public/
+│       │   └── index.html
+│       │
+│       ├── src/
+│       │   ├── assets/
+│       │   ├── components/
+│       │   │   ├── AddUser.jsx / AddUser.css
+│       │   │   ├── ClaimButton.jsx
+│       │   │   ├── ClaimHistory.jsx / ClaimHistory.css
+│       │   │   ├── Leaderboard.jsx / Leaderboard.css
+│       │   │   ├── UserSelector.jsx / UserSelector.css
+│       │   │
+│       │   ├── App.jsx / App.css
+│       │   ├── index.css
+│       │   └── main.jsx
 │
 ├── README.md
+
 
 
 
