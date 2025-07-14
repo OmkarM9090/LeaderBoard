@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.claim-history-container {
+  background-color: #fff6ea;
+  margin: 30px auto;
+  padding: 25px;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Poppins", sans-serif ;
+}
+
+.claim-history-container h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif ;
+}
+
+.claim-history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.claim-history-list li {
+  background-color: #ffdca6;
+  margin: 10px auto;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #333;
+  max-width: 90%;
+  text-align: left;
+  font-family: "Poppins", sans-serif ;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.claim-history-list li:hover {
+  background-color: #ffc870;
+}
+.reset-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif ;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: #c0392b;
+}
+
+
+/* 🔧 Mobile Responsive */
+@media (max-width: 600px) {
+  .claim-history-container {
+    padding: 15px;
+    margin: 20px 10px;
+    font-family: "Poppins", sans-serif ;
+  }
+
+  .claim-history-container h2 {
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif ;
+  }
+
+  .claim-history-list li {
+    font-size: 0.95rem;
+    font-family: "Poppins", sans-serif ;
+    padding: 10px 14px;
+  }
+}
